@@ -14,7 +14,7 @@ const screen = blessed.screen({
 const board = blessed.box({
   top: 'center',
   left: 'center',
-  width: cols * 2 + 2,
+  width: cols * 2 + 3,
   height: rows + 2,
   tags: true,
   border: {
